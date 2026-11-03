@@ -1,0 +1,67 @@
+# Copyright IBM Corp. 2026
+# SPDX-License-Identifier: Apache-2.0
+# Modified for open-source preparation on 2026-10-23.
+# AI assistance may include Anthropic Claude Opus 4+, Sonnet 3.7+, and
+# OpenAI GPT-4+ contributions; exact file provenance is unverified.
+# See AI_DISCLOSURE.md and NOTICE.md at the collection root.
+
+name: Public notebook quality
+on:
+  pull_request:
+  push:
+permissions:
+  contents: read
+jobs:
+  notebooks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12.16'
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+      - run: python -m pip install --require-hashes -r requirements-dev.txt
+      - run: python -m ruff check _tools examples
+      - run: python -m ruff format --check _tools examples
+      - run: python _tools/check_public.py
+      - run: python _tools/check_links.py
+      - run: python _tools/test_quality_gates.py
+      - run: python _tools/validate.py
+      - run: python _tools/audit_dependencies.py
+      - name: Preserve synthetic execution evidence
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: notebook-verification
+          retention-days: 14
+          path: |
+            reports/
+            .build/executed/
+  optional-contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12.16'
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            _requirements/optional-services.lock.txt
+            _requirements/optional-retrieval.lock.txt
+      - run: python -m pip install --require-hashes -r requirements.txt -r _requirements/optional-services.lock.txt -r _requirements/optional-retrieval.lock.txt
+      - run: python _tools/test_optional_contracts.py
+      - name: Preserve synthetic contract evidence
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: optional-contract-verification
+          retention-days: 14
+          path: reports/optional-contracts.json

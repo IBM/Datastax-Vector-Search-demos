@@ -1,0 +1,411 @@
+{
+  "target": "IBM Developer / public GitHub editorial review",
+  "status": "public_import_under_review",
+  "notebooks": [
+    {
+      "path": "examples/local/contribution-aggregation/tutorial.ipynb",
+      "title": "Count synthetic contribution records without counting donors twice",
+      "group": "local",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "25828d35e968e48acdf47368a29c206087518cd522fbd8c422df07db6f097960",
+      "coverage": "Learn why transaction counts, unique contributors and net receipts answer different questions. Use Decimal arithmetic, retain negative adjustments, and apply an explicit synthetic amendment policy.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/local/document-parsing/tutorial.ipynb",
+      "title": "Extract bounded article records from synthetic HTML and a sitemap",
+      "group": "local",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "a9f0da705039e5d8a5ddf7adaf268408387faa2693237625bd5ba56f7146ed33",
+      "coverage": "Parse a sitemap, restrict accepted URLs to an expected origin, extract article paragraphs, and preserve provenance without fetching the network.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/local/geospatial-mapping/tutorial.ipynb",
+      "title": "Map synthetic sites and measure nearest-neighbor distances",
+      "group": "local",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "54c1fc7495b2234d08ca337e5373cd2b7e4804c6f8174b77115b51eb52890b6a",
+      "coverage": "Learn to validate geographic coordinates, calculate great-circle distances, and visualize a small site inventory. Distinguish a nearest neighbor by straight-line distance from a route or a service-area assignment.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/local/question-pair-review/tutorial.ipynb",
+      "title": "Validate and inspect synthetic question pairs",
+      "group": "local",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "40e0facab8dd32edd76031bb28fa4f5b7872adf2a226f40cdf98cc85e61d1df5",
+      "coverage": "Validate a question-pair dataset, detect conflicting duplicates, assign leakage-resistant component splits, and display escaped review cards.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/local/reproducible-environment/tutorial.ipynb",
+      "title": "Make notebook experiments reproducible and reviewable",
+      "group": "local",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "082f7687b51539454e8197254d44f505ceb1cdc9c92175f00527735ea1667e38",
+      "coverage": "Record a minimal environment fingerprint, isolate random state, hash a synthetic input, and test a bootstrap confidence interval with reproducible resampling.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/local/sales-sql/tutorial.ipynb",
+      "title": "Analyze synthetic sales with parameterized SQL and exact money",
+      "group": "local",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "915d0bc73f1f6b5d47bf4c25fcaad93a1900716ca3bce3fdcd4e45222d995b22",
+      "coverage": "Build a small relational model, calculate line revenue and refunds, and verify aggregate SQL against an independent Python calculation.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/local/streaming-corpus/tutorial.ipynb",
+      "title": "Stream a synthetic scholarly corpus with bounded records",
+      "group": "local",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "bfa0e152766a1f88fd6c38f5ba8d6cfb42f98090b81142ff583564bb6d1496a2",
+      "coverage": "Read JSON Lines incrementally, quarantine malformed records with line numbers, validate citation links, and aggregate without loading an entire corpus.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/local/text-ingestion/tutorial.ipynb",
+      "title": "Chunk synthetic documents with traceable boundaries and idempotent IDs",
+      "group": "local",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "8511a6837c5b58ffa9cd173620645339b0bd6e811033bc58c141b79f3d7385ce",
+      "coverage": "Build a small ingestion pipeline from authored documents to overlapping word chunks, preserve offsets, and verify re-ingestion does not duplicate records.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/local/thumbnail-audit/tutorial.ipynb",
+      "title": "Audit and generate thumbnails from synthetic image records",
+      "group": "local",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "9ca34637f1deb844056388428f137c40b53162b7768f611eeba43f7e0596e2c2",
+      "coverage": "Validate image bytes and metadata, reject malformed or oversized inputs, produce bounded thumbnails, and reconcile a per-record audit summary.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/local/translation-workflow/tutorial.ipynb",
+      "title": "Preserve structure in a document translation workflow",
+      "group": "local",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [
+        "RUN_LIVE"
+      ],
+      "provider_verification": "not_run",
+      "source_sha256": "f210d10f347b2baf0f983c703e6cdaf1707c67d7abea38f0b7aced4de51b9a37",
+      "coverage": "Segment a document, create stable translation jobs, validate responses, and reassemble a reviewable bilingual table. The default uses explicitly authored bilingual examples and tests orchestration, not machine-translation quality.",
+      "publication_scope": "local_with_optional_integration",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/science/controlled-controlled-z/tutorial.ipynb",
+      "title": "Overlapping CCZ gates as a four-qubit phase polynomial",
+      "group": "science",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "34619f628e165b5f5fc49a7219a2de7ca68a8cbe530c2c268954fa3c74685ca3",
+      "coverage": "Local mathematical, simulation, retrieval or graph assertions; see notebook for exact invariants.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/science/controlled-z/tutorial.ipynb",
+      "title": "Controlled-Z: phase, basis changes, and entanglement",
+      "group": "science",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "a58d47dea96c27ca2de546f6fcca2e185d8895ca18bdcb627c210b4d29a31ea3",
+      "coverage": "Local mathematical, simulation, retrieval or graph assertions; see notebook for exact invariants.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/science/ensemble-retrieval/tutorial.ipynb",
+      "title": "Fuse multiple collections and evaluate a second-stage reranker",
+      "group": "science",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [
+        "RUN_HOSTED_EMBEDDINGS",
+        "RUN_LOCAL_NEURAL_RERANKER"
+      ],
+      "provider_verification": "not_run",
+      "source_sha256": "cda4c69fddd2bcf560659735f75035a0835da73431bcd7392bcc9a6ab460aff7",
+      "coverage": "Local mathematical, simulation, retrieval or graph assertions; see notebook for exact invariants.",
+      "publication_scope": "local_with_optional_integration",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/science/graph-phase-oracles/tutorial.ipynb",
+      "title": "Graph phase oracles: test the predicate before claiming a clique solver",
+      "group": "science",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "7fe76df5e8dc0558041d5e42f2e0e8525072a636adcd93a683274476287337aa",
+      "coverage": "Local mathematical, simulation, retrieval or graph assertions; see notebook for exact invariants.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/science/knowledge-graph/tutorial.ipynb",
+      "title": "Extract, validate, and traverse an evidence-backed knowledge graph",
+      "group": "science",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [
+        "RUN_LLM_EXTRACTION"
+      ],
+      "provider_verification": "not_run",
+      "source_sha256": "6f2ad423824f547706ccab8e6e9e956cf19a5887fcbfc7b5868662aa3af50338",
+      "coverage": "Local mathematical, simulation, retrieval or graph assertions; see notebook for exact invariants.",
+      "publication_scope": "local_with_optional_integration",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/science/noise-calibration/tutorial.ipynb",
+      "title": "Synthetic calibration, QAOA, and the limits of error mitigation",
+      "group": "science",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "eb19d7e152f1848539c4aceb18f4a636adc3bcac23a5e5d0bbad3ee2a8af7213",
+      "coverage": "Local mathematical, simulation, retrieval or graph assertions; see notebook for exact invariants.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/science/nvidia-reranking/tutorial.ipynb",
+      "title": "Build a validated NVIDIA reranking stage around a local retrieval experiment",
+      "group": "science",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [
+        "RUN_NVIDIA"
+      ],
+      "provider_verification": "not_run",
+      "source_sha256": "faa271ea7154fdde7fe0530138354e15ca0e87b94a549adcc043065b0cfdc9ba",
+      "coverage": "Local mathematical, simulation, retrieval or graph assertions; see notebook for exact invariants.",
+      "publication_scope": "local_with_optional_integration",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/science/remote-cnot/tutorial.ipynb",
+      "title": "Remote CNOT on a line: compare swaps with measured ancillas",
+      "group": "science",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "eb3cea0940784fc1a72b686c0bab54c317ec642a78d2c1cf782cf9292fc704cf",
+      "coverage": "Local mathematical, simulation, retrieval or graph assertions; see notebook for exact invariants.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/science/teleportation/tutorial.ipynb",
+      "title": "From interference and CHSH to verified quantum teleportation",
+      "group": "science",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "e0082c1932036c040bfd14269e0131ae3ceb1979e1dd23f46e9b4e7d6d21d42f",
+      "coverage": "Local mathematical, simulation, retrieval or graph assertions; see notebook for exact invariants.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/services/adversarial_agent_evaluation.ipynb",
+      "title": "Build an adversarial evaluation matrix for tool authorization",
+      "group": "services",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "63c752cbfe99c400a1ca23cf109548ebe4523b2cbda01d08cf042d7daf0c82d5",
+      "coverage": "Use wholly synthetic attack requests to distinguish prompt manipulation from enforceable backend authorization, compare an unsafe policy with a guarded dispatcher, and measure both denied attacks and allowed controls.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/services/customization_job_workflow.ipynb",
+      "title": "Prepare and monitor a model customization job responsibly",
+      "group": "services",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "638709d9b3578c9b12a44e9b65d6c958605f06949caf673873f3785d39b33ce0",
+      "coverage": "Validate synthetic chat data, construct a reproducible training manifest, estimate optimizer steps, and test a bounded job monitor against success, failure, and timeout histories before submitting GPU work.",
+      "publication_scope": "local_operational_handoff",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/services/evaluation_experiments.ipynb",
+      "title": "Compare retrieval experiments with evidence and abstention",
+      "group": "services",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [
+        "RUN_LIVE"
+      ],
+      "provider_verification": "not_run",
+      "source_sha256": "560d142e6d11a7214e3a82ba74dd45241c0087357b607958fbfc9c7eb159941e",
+      "coverage": "Build two deterministic answer systems, evaluate them on a held-out synthetic question set, and compare correctness, evidence, and abstention rather than reporting one flattering score.",
+      "publication_scope": "local_with_optional_integration",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/services/html_to_training_qa.ipynb",
+      "title": "Turn HTML reference material into auditable training pairs",
+      "group": "services",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "9fe7462c70212a0746a244ccb947446e49d0764f79b67d59f0d23b3a5ce02e6b",
+      "coverage": "Parse a synthetic HTML handbook, retain source provenance, reject unsupported answers, deduplicate records, and split by source document so related answers cannot leak across train and validation.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/services/langgraph_evaluation.ipynb",
+      "title": "Evaluate a real local LangGraph workflow",
+      "group": "services",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "2a4b206428ae3f13ff65ca3eca349ade2bf5b5fb5fb00674f706fad96b91686c",
+      "coverage": "Compile and execute an actual LangGraph StateGraph, evaluate route and answer contracts on synthetic cases, and demonstrate how a plausible response can hide an incorrect route.",
+      "publication_scope": "standalone_local",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/services/secure_airgap_packaging.ipynb",
+      "title": "Build a reproducible artifact bundle for an air-gapped review",
+      "group": "services",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [],
+      "provider_verification": "not_applicable",
+      "source_sha256": "a26664b5b326bd87acec35b48f285b4f63e0c865a45898c16c54c44d2f28c8b5",
+      "coverage": "Create a manifest-selected archive, verify every member and digest, and reject traversal, unexpected files, and tampering before a bundle can cross a deployment boundary.",
+      "publication_scope": "local_operational_handoff",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/services/tool_agent_evaluation.ipynb",
+      "title": "Evaluate a tool-using agent before connecting Claude",
+      "group": "services",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [
+        "RUN_LIVE"
+      ],
+      "provider_verification": "not_run",
+      "source_sha256": "cc6680765c5d65736fe5da43021e1ea3facbb89b079ec5b98f126b29ffffd5e7",
+      "coverage": "Build a bounded tool dispatcher and a trajectory evaluator for a fictional equipment desk, then connect the same read-only contract to an optional Claude Messages API loop.",
+      "publication_scope": "local_with_optional_integration",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/services/watsonx_orchestrate_evaluation.ipynb",
+      "title": "Design a watsonx Orchestrate agent evaluation suite",
+      "group": "services",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [
+        "RUN_LIVE"
+      ],
+      "provider_verification": "not_run",
+      "source_sha256": "c314e50d8eee1445bc859583db3896aede9982435966ce6ad1c949204c5f866b",
+      "coverage": "Author synthetic task cases, normalize recorded trajectories into a vendor-neutral contract, score routing and argument fidelity independently, and optionally run a real watsonx Orchestrate chat completion.",
+      "publication_scope": "local_with_optional_integration",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/services/watsonx_runtime_context.ipynb",
+      "title": "Validate runtime context for a synthetic HR assistant",
+      "group": "services",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [
+        "RUN_LIVE"
+      ],
+      "provider_verification": "not_run",
+      "source_sha256": "bd15746beaf57ae0a07a9142b5c73c311a3cb9767f51126c5b4c767053140c9a",
+      "coverage": "Keep authenticated identity separate from user-provided tool arguments, compute leave balances from synthetic events, verify tenant isolation, and construct an optional Orchestrate run with explicit context.",
+      "publication_scope": "local_with_optional_integration",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    },
+    {
+      "path": "examples/services/workflow_agent_evaluation.ipynb",
+      "title": "Test workflow-agent routing and session isolation",
+      "group": "services",
+      "synthetic_inputs": true,
+      "default_mode": "offline",
+      "optional_flags": [
+        "RUN_LIVE"
+      ],
+      "provider_verification": "not_run",
+      "source_sha256": "775a69d0ada84a33f8bde76b5df2ad26b3521c384ad9e2441aa6793b4bc08171",
+      "coverage": "Execute a transparent local workflow with typed result contracts, trace every stage, reject cycles, and use the same cases with an optional Langflow run endpoint.",
+      "publication_scope": "local_with_optional_integration",
+      "publication_decision": "ready_for_editorial_submission_with_documented_scope"
+    }
+  ],
+  "required_lockfiles": [
+    "requirements.txt",
+    "requirements-dev.txt",
+    "_requirements/optional-services.lock.txt",
+    "_requirements/optional-retrieval.lock.txt"
+  ],
+  "provenance": "Fresh synthetic fixtures and tutorial implementations; no operational data included. No official IBM endorsement.",
+  "destination": "https://github.com/IBM/Datastax-Vector-Search-demos",
+  "publication_review": "PUBLICATION_STATUS.md"
+}

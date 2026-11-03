@@ -1,84 +1,36 @@
-## Contributing In General
-Our project welcomes external contributions. If you have an itch, please feel
-free to scratch it.
+# Contributing
 
-To contribute code or documentation, please submit a **FIXME** [pull request](https://github.com/ibm/repo-template/pulls).
+Keep each tutorial focused on a concrete learning outcome. Explain inputs, assumptions, expected outputs, failure cases, cleanup, and what the example does not prove. New datasets must be synthetic or have documented redistribution rights and a privacy review. Do not import operational files from outside the repository.
 
-A good way to familiarize yourself with the codebase and contribution process is
-to look for and tackle low-hanging fruit in the **FIXME** [issue tracker](https://github.com/ibm/repo-template/issues).
-Before embarking on a more ambitious contribution, please quickly [get in touch](#communication) with us.
+Before proposing a change, restart and execute the notebook from beginning to end, run `_tools/check_public.py`, `_tools/validate.py`, and `_tools/audit_dependencies.py`, and inspect generated plots/tables. Add meaningful assertions for important invariants and error behavior. Do not turn an error into a passing test by swallowing exceptions, silently substituting a mock, or dropping the behavior under test.
 
-**Note: We appreciate your effort, and want to avoid a situation where a contribution
-requires extensive rework (by you or by us), sits in backlog for a long time, or
-cannot be accepted at all!**
+For dependencies, edit `_requirements/runtime.in` or `_requirements/dev.in`, then regenerate the hashed universal locks with a current `uv` release:
 
-### Proposing new features
-
-If you would like to implement a new feature, please **FIXME** [raise an issue](https://github.com/ibm/repo-template/issues)
-before sending a pull request so the feature can be discussed. This is to avoid
-you wasting your valuable time working on a feature that the project developers
-are not interested in accepting into the code base.
-
-### Fixing bugs
-
-If you would like to fix a bug, please **FIXME** [raise an issue](https://github.com/ibm/repo-template/issues) before sending a
-pull request so it can be tracked.
-
-### Merge approval
-
-The project maintainers use LGTM (Looks Good To Me) in comments on the code
-review to indicate acceptance. A change requires LGTMs from two of the
-maintainers of each component affected.
-
-For a list of the maintainers, see the [MAINTAINERS.md](MAINTAINERS.md) page.
-
-## Legal
-
-Each source file must include a license header for the Apache
-Software License 2.0. Using the SPDX format is the simplest approach.
-e.g.
-
-```
-/*
-Copyright <holder> All Rights Reserved.
-
-SPDX-License-Identifier: Apache-2.0
-*/
+```sh
+uv pip compile --python 3.12 --universal --generate-hashes --no-header _requirements/runtime.in -o requirements.txt
+uv pip compile --python 3.12 --universal --generate-hashes --no-header _requirements/dev.in -c requirements.txt -o requirements-dev.txt
+uv pip compile --python 3.12 --universal --generate-hashes --no-header _requirements/optional-services.in -c requirements.txt -o _requirements/optional-services.lock.txt
+uv pip compile --python 3.12 --universal --generate-hashes --no-header _requirements/optional-retrieval.in -c requirements.txt -o _requirements/optional-retrieval.lock.txt
 ```
 
-We have tried to make it as easy as possible to make contributions. This
-applies to how we handle the legal aspects of contribution. We use the
-same approach - the [Developer's Certificate of Origin 1.1 (DCO)](https://github.com/hyperledger/fabric/blob/master/docs/source/DCO1.1.txt) - that the Linux® Kernel [community](https://elinux.org/Developer_Certificate_Of_Origin)
-uses to manage code contributions.
+Recreate the environment from the new development lock, run the full checks, and compare API behavior. After installing both optional profiles in a separate environment, run `_tools/test_optional_contracts.py` and pass its interpreter to `_tools/audit_dependencies.py --extra-python <optional-python>`. Inspect generated lockfile comments for machine-specific paths before committing. A clean package audit does not scan every native runtime component; keep Python, TLS libraries, operating systems, and deployed images patched as well.
 
-We simply ask that when submitting a patch for review, the developer
-must include a sign-off statement in the commit message.
+Provide live integration evidence only for calls you actually ran. Record the provider/model/version, sanitized input fixture, expected assertions, date, and cleanup outcome. Never commit actual credentials or private prompts/responses. Platform support requires a run on that platform, not merely a successful dependency resolution.
 
-Here is an example Signed-off-by line, which indicates that the
-submitter accepts the DCO:
+Source notebooks should have cleared outputs and no trusted-cell metadata. Use the executed copies under `.build/executed/` for local editorial inspection, then clear outputs in anything submitted publicly. Confirm the destination repository's license and required attribution before submitting a pull request.
 
-```
-Signed-off-by: John Doe <john.doe@example.com>
-```
+Execution, contract and dependency-audit reports record hashes of the applicable locks and verifier source, including imported lock-parsing helpers. Changing an input invalidates its prior evidence; rerun checks before packaging. Dependency freshness covers direct runtime, development and optional packages, and advisory coverage must include the full package inventory. CI runs default notebook execution and a separate optional-contract job; the latter uses synthetic HTTP fixtures and needs no provider credentials.
 
-You can include this automatically when you commit a change to your
-local git repository using the following command:
+## License, DCO and AI assistance
 
-```
-git commit -s
-```
+Submit source contributions under Apache License 2.0 and retain existing copyright, attribution and modification notices. Read the unmodified [Developer Certificate of Origin 1.1](DCO.txt). For every contribution, the person with the right to submit it must personally certify the DCO and add a `Signed-off-by: Your Name <your-address>` trailer, normally with `git commit -s`. Use your actual contribution identity. The trailer is a certification, not a claim that adding this document automatically certifies existing work. The initial public import uses a fresh signed-off commit; the internal development history is not imported. A separate attestation file does not replace a required commit trailer. Employer authorization and upstream rights still need to be established by the contributor.
 
-## Communication
-**FIXME** Please feel free to connect with us on our [Slack channel](link).
+Disclose AI assistance using [AI_DISCLOSURE.md](AI_DISCLOSURE.md), preserve file notices, and update [reports/ai-provenance.json](reports/ai-provenance.json) after source changes. Record exact providers/models only when known. AI-generated code must receive the same correctness, security, provenance and license review as other code; a DCO sign-off must come from a responsible human.
 
-## Setup
-**FIXME** Please add any special setup instructions for your project to help the developer
-become productive quickly.
+## Contribution workflow and review
 
-## Testing
-**FIXME** Please provide information that helps the developer test any changes they make
-before submitting.
+Discuss substantial features in the [issue tracker](https://github.com/IBM/Datastax-Vector-Search-demos/issues) before implementation. Create a topic branch, keep changes focused, run the checks above, inspect generated results, and open a [pull request](https://github.com/IBM/Datastax-Vector-Search-demos/pulls). A fork is useful for external contributors; maintainers may use a topic branch in this repository. Do not push directly to main to bypass review. Include a `Signed-off-by` trailer matching your commit author identity on each authored commit, normally with `git commit -s`.
 
-## Coding style guidelines
-**FIXME** Optional, but recommended: please share any specific style guidelines you might
-have for your project.
+Follow the [Code of Conduct](CODE_OF_CONDUCT.md). Maintainer acceptance is expressed with LGTM reviews. The repository's review policy requires two maintainer LGTMs for each affected component. The initial publication must remain a draft until the required maintainer reviews and the open items in [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) are resolved. See [MAINTAINERS.md](MAINTAINERS.md) for the current responsible maintainers; public GitHub issues and PRs are the project discussion channels.
+
+The code style is enforced by the repository's Ruff configuration. Preserve explicit failure behavior, synthetic-data provenance, source attribution and accessibility of text/tables/plots. Numerical assertions should use justified tolerances. Default tests must not require secrets, live providers, downloaded models or GPU hardware. Integration claims need separate sanitized live evidence.

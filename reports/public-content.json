@@ -1,0 +1,513 @@
+{
+  "scope": "Public distribution only; excluded local builds, environments, and generated artifacts",
+  "findings": [],
+  "notebooks": [
+    {
+      "path": "examples/science/knowledge-graph/tutorial.ipynb",
+      "code_cells": 5,
+      "markdown_cells": 8,
+      "assertion_cells": 3
+    },
+    {
+      "path": "examples/science/teleportation/tutorial.ipynb",
+      "code_cells": 3,
+      "markdown_cells": 7,
+      "assertion_cells": 3
+    },
+    {
+      "path": "examples/science/nvidia-reranking/tutorial.ipynb",
+      "code_cells": 6,
+      "markdown_cells": 9,
+      "assertion_cells": 4
+    },
+    {
+      "path": "examples/science/noise-calibration/tutorial.ipynb",
+      "code_cells": 5,
+      "markdown_cells": 8,
+      "assertion_cells": 5
+    },
+    {
+      "path": "examples/science/ensemble-retrieval/tutorial.ipynb",
+      "code_cells": 5,
+      "markdown_cells": 8,
+      "assertion_cells": 5
+    },
+    {
+      "path": "examples/science/graph-phase-oracles/tutorial.ipynb",
+      "code_cells": 3,
+      "markdown_cells": 6,
+      "assertion_cells": 3
+    },
+    {
+      "path": "examples/science/controlled-z/tutorial.ipynb",
+      "code_cells": 4,
+      "markdown_cells": 7,
+      "assertion_cells": 4
+    },
+    {
+      "path": "examples/science/controlled-controlled-z/tutorial.ipynb",
+      "code_cells": 3,
+      "markdown_cells": 6,
+      "assertion_cells": 3
+    },
+    {
+      "path": "examples/science/remote-cnot/tutorial.ipynb",
+      "code_cells": 3,
+      "markdown_cells": 6,
+      "assertion_cells": 3
+    },
+    {
+      "path": "examples/local/question-pair-review/tutorial.ipynb",
+      "code_cells": 4,
+      "markdown_cells": 7,
+      "assertion_cells": 3
+    },
+    {
+      "path": "examples/local/translation-workflow/tutorial.ipynb",
+      "code_cells": 7,
+      "markdown_cells": 10,
+      "assertion_cells": 4
+    },
+    {
+      "path": "examples/local/geospatial-mapping/tutorial.ipynb",
+      "code_cells": 5,
+      "markdown_cells": 8,
+      "assertion_cells": 3
+    },
+    {
+      "path": "examples/local/sales-sql/tutorial.ipynb",
+      "code_cells": 4,
+      "markdown_cells": 7,
+      "assertion_cells": 3
+    },
+    {
+      "path": "examples/local/text-ingestion/tutorial.ipynb",
+      "code_cells": 4,
+      "markdown_cells": 7,
+      "assertion_cells": 4
+    },
+    {
+      "path": "examples/local/streaming-corpus/tutorial.ipynb",
+      "code_cells": 4,
+      "markdown_cells": 7,
+      "assertion_cells": 3
+    },
+    {
+      "path": "examples/local/document-parsing/tutorial.ipynb",
+      "code_cells": 4,
+      "markdown_cells": 7,
+      "assertion_cells": 3
+    },
+    {
+      "path": "examples/local/contribution-aggregation/tutorial.ipynb",
+      "code_cells": 4,
+      "markdown_cells": 7,
+      "assertion_cells": 3
+    },
+    {
+      "path": "examples/local/reproducible-environment/tutorial.ipynb",
+      "code_cells": 5,
+      "markdown_cells": 8,
+      "assertion_cells": 4
+    },
+    {
+      "path": "examples/local/thumbnail-audit/tutorial.ipynb",
+      "code_cells": 4,
+      "markdown_cells": 7,
+      "assertion_cells": 2
+    },
+    {
+      "path": "examples/services/watsonx_orchestrate_evaluation.ipynb",
+      "code_cells": 4,
+      "markdown_cells": 9,
+      "assertion_cells": 3
+    },
+    {
+      "path": "examples/services/langgraph_evaluation.ipynb",
+      "code_cells": 4,
+      "markdown_cells": 9,
+      "assertion_cells": 3
+    },
+    {
+      "path": "examples/services/secure_airgap_packaging.ipynb",
+      "code_cells": 4,
+      "markdown_cells": 9,
+      "assertion_cells": 3
+    },
+    {
+      "path": "examples/services/watsonx_runtime_context.ipynb",
+      "code_cells": 5,
+      "markdown_cells": 10,
+      "assertion_cells": 4
+    },
+    {
+      "path": "examples/services/tool_agent_evaluation.ipynb",
+      "code_cells": 4,
+      "markdown_cells": 9,
+      "assertion_cells": 3
+    },
+    {
+      "path": "examples/services/evaluation_experiments.ipynb",
+      "code_cells": 5,
+      "markdown_cells": 10,
+      "assertion_cells": 4
+    },
+    {
+      "path": "examples/services/adversarial_agent_evaluation.ipynb",
+      "code_cells": 4,
+      "markdown_cells": 9,
+      "assertion_cells": 4
+    },
+    {
+      "path": "examples/services/html_to_training_qa.ipynb",
+      "code_cells": 4,
+      "markdown_cells": 9,
+      "assertion_cells": 2
+    },
+    {
+      "path": "examples/services/workflow_agent_evaluation.ipynb",
+      "code_cells": 4,
+      "markdown_cells": 9,
+      "assertion_cells": 3
+    },
+    {
+      "path": "examples/services/customization_job_workflow.ipynb",
+      "code_cells": 5,
+      "markdown_cells": 10,
+      "assertion_cells": 5
+    }
+  ],
+  "inventory": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "b37c26f99e1fb537def4b63d1e18a64ca1166b1e3fa200c827e46103ac839eb3",
+      "bytes": 9048
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08",
+      "bytes": 11358
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "10947a0463aa02ce636e4b13ab59fbd99efa06834cd4e7508127ff6b898e379a",
+      "bytes": 198250
+    },
+    {
+      "path": "AI_DISCLOSURE.md",
+      "sha256": "d6a657da6ccef434160ce876009ae9b5401a7f63c6d5d488141e75816755d443",
+      "bytes": 1565
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "953eb4a55bc9d9f4259079023086da150af0043c68e1aaa195dcb3c3a15f0a02",
+      "bytes": 612
+    },
+    {
+      "path": "PUBLICATION_STATUS.md",
+      "sha256": "4355e0b9d0cf7490d690bddace70a504b82f1d10f483ab3603e1a654fa447608",
+      "bytes": 3163
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "sha256": "d9dc4a35cbae369dcb30c3644947a39208314e7e189868d27bbcd0fbf16553a4",
+      "bytes": 819
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "3ec5be7bfbd7618710df549c8bfa4ffc626218f25cbc84ffc7eb0a109e76e7a6",
+      "bytes": 431
+    },
+    {
+      "path": "DATA.md",
+      "sha256": "6adcde0f4f794b31d8ccbd38a2968be253efeb0de6fe8fc1dda6c31af0ea02f2",
+      "bytes": 4073
+    },
+    {
+      "path": ".whitesource",
+      "sha256": "fe6cbfead8fca1db6a645bfb019dbaa01a640c287e555c32937cb646c7268620",
+      "bytes": 65
+    },
+    {
+      "path": "README.md",
+      "sha256": "368ffbd46e1be699a5e50479424db33f77add98310e5d2f88975b10feca14c18",
+      "bytes": 5610
+    },
+    {
+      "path": "DCO.txt",
+      "sha256": "f7ac75b443f4ca16b503241344b41aeff9503b0c30bedc2b119551d83cb0fa90",
+      "bytes": 1366
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "c4363e112540ccc1b1d11379be05d54d01306c0ab1dd2ede5af2ab1a9c0a0bfc",
+      "bytes": 246816
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "c9cdfcddeebd1bd581fa57da03ef1fcaf7ccaf6379f1c9bbf9039ee69b875f36",
+      "bytes": 154
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "49bb8a107c1ba6f56c4dcb3cbf3e047a6f04dcc68de4edf3bf8a1b9c6a148f63",
+      "bytes": 5955
+    },
+    {
+      "path": ".python-version",
+      "sha256": "a05e0074505ce29f25abf3aebe4f7218d28e98411822f199e3272740be4e363c",
+      "bytes": 8
+    },
+    {
+      "path": "publication.json",
+      "sha256": "6ae0002c84f0484d50ebdc449d3edc00fe9dcaa0b26af2fdcd21f11e93365d38",
+      "bytes": 21874
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "cfb9d7427cb2c63eaeee95790d710db10256d93914f130c354ef93fae8576ca2",
+      "bytes": 1539
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "d8ff18bda39db030a7dbb38e4e88b4492f3d1a79eff6e6e960d47506265f2711",
+      "bytes": 2457
+    },
+    {
+      "path": "_requirements/runtime.in",
+      "sha256": "3a3c940ca9bac05e78358f3a9297a4819269bfed04dead369580830ab9f3845a",
+      "bytes": 541
+    },
+    {
+      "path": "_requirements/optional-retrieval.in",
+      "sha256": "3cf0fd599902c6222102d5ad35f803ba576d03554ca509fac6f90da19877818c",
+      "bytes": 349
+    },
+    {
+      "path": "_requirements/dev.in",
+      "sha256": "1ec93c4e579d026160d9363f4f0e3163782e833567e4fdccdad2eef55bbfe150",
+      "bytes": 374
+    },
+    {
+      "path": "_requirements/optional-services.lock.txt",
+      "sha256": "37c086360da8cbb84a9d38964bb143d3bcd58cb1b5926a5f8c3b3a3886b59c38",
+      "bytes": 61495
+    },
+    {
+      "path": "_requirements/optional-retrieval.lock.txt",
+      "sha256": "ee2353f08ecfe3844f516e06283eaafcfcb909b315cb9dd201bae39473a7dba5",
+      "bytes": 93665
+    },
+    {
+      "path": "_requirements/optional-services.in",
+      "sha256": "201cc049e2f5012586655687c611a8830e7291437fd78ba51aa8607405eb4481",
+      "bytes": 351
+    },
+    {
+      "path": "_tools/test_quality_gates.py",
+      "sha256": "8b567b85372d35d03951f1d59aaf2beb30ce6460ca4f99d313303ebc2d9a1820",
+      "bytes": 19587
+    },
+    {
+      "path": "_tools/check_links.py",
+      "sha256": "c74c74b0fa3316eaace44efe65fcc68d6f961f5587a0ee106d02868b8d30b434",
+      "bytes": 1872
+    },
+    {
+      "path": "_tools/test_optional_contracts.py",
+      "sha256": "8de5dfd71532819c175e0cf35f59b9bf179fda8eb0877a35857b4b052d7ec495",
+      "bytes": 38735
+    },
+    {
+      "path": "_tools/audit_dependencies.py",
+      "sha256": "f25295fc63c605dd4635da851645a28ecf542fb8ba3d1af0196e12f9ea544cda",
+      "bytes": 10083
+    },
+    {
+      "path": "_tools/validate.py",
+      "sha256": "74bf82e4e1822631d7946734602467d7b475f6148cb824bd5173fb79f9a8bb74",
+      "bytes": 8316
+    },
+    {
+      "path": "_tools/prepare_release.py",
+      "sha256": "ce3c6d3202616bef67aea98684d2f6f6ba150c5fa447a3ebd3965642ca6dab83",
+      "bytes": 6068
+    },
+    {
+      "path": "_tools/release_evidence.py",
+      "sha256": "5c5d0c23ad070cf56b96fca60e14d2584832557da41eae18ec9c5b1cd88b385c",
+      "bytes": 4808
+    },
+    {
+      "path": "_tools/public_files.py",
+      "sha256": "0a006832a5aabff7f1f58c65f72c13a420e07e679f9328c9ad0289a781ba1987",
+      "bytes": 2635
+    },
+    {
+      "path": "examples/science/LICENSE.qgss-2025.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "path": "examples/science/ATTRIBUTION.md",
+      "sha256": "b8c0f3b6e6e8ecf4c5625389377b5ef8e7bb5a88ffcc32e63503e47fb7797d32",
+      "bytes": 1610
+    },
+    {
+      "path": "examples/science/knowledge-graph/tutorial.ipynb",
+      "sha256": "6f2ad423824f547706ccab8e6e9e956cf19a5887fcbfc7b5868662aa3af50338",
+      "bytes": 23590
+    },
+    {
+      "path": "examples/science/teleportation/tutorial.ipynb",
+      "sha256": "e0082c1932036c040bfd14269e0131ae3ceb1979e1dd23f46e9b4e7d6d21d42f",
+      "bytes": 11395
+    },
+    {
+      "path": "examples/science/nvidia-reranking/tutorial.ipynb",
+      "sha256": "faa271ea7154fdde7fe0530138354e15ca0e87b94a549adcc043065b0cfdc9ba",
+      "bytes": 22052
+    },
+    {
+      "path": "examples/science/noise-calibration/tutorial.ipynb",
+      "sha256": "eb19d7e152f1848539c4aceb18f4a636adc3bcac23a5e5d0bbad3ee2a8af7213",
+      "bytes": 14709
+    },
+    {
+      "path": "examples/science/ensemble-retrieval/tutorial.ipynb",
+      "sha256": "cda4c69fddd2bcf560659735f75035a0835da73431bcd7392bcc9a6ab460aff7",
+      "bytes": 23382
+    },
+    {
+      "path": "examples/science/graph-phase-oracles/tutorial.ipynb",
+      "sha256": "7fe76df5e8dc0558041d5e42f2e0e8525072a636adcd93a683274476287337aa",
+      "bytes": 10136
+    },
+    {
+      "path": "examples/science/controlled-z/tutorial.ipynb",
+      "sha256": "a58d47dea96c27ca2de546f6fcca2e185d8895ca18bdcb627c210b4d29a31ea3",
+      "bytes": 9523
+    },
+    {
+      "path": "examples/science/controlled-controlled-z/tutorial.ipynb",
+      "sha256": "34619f628e165b5f5fc49a7219a2de7ca68a8cbe530c2c268954fa3c74685ca3",
+      "bytes": 9456
+    },
+    {
+      "path": "examples/science/remote-cnot/tutorial.ipynb",
+      "sha256": "eb3cea0940784fc1a72b686c0bab54c317ec642a78d2c1cf782cf9292fc704cf",
+      "bytes": 10110
+    },
+    {
+      "path": "examples/local/question-pair-review/tutorial.ipynb",
+      "sha256": "40e0facab8dd32edd76031bb28fa4f5b7872adf2a226f40cdf98cc85e61d1df5",
+      "bytes": 12730
+    },
+    {
+      "path": "examples/local/translation-workflow/tutorial.ipynb",
+      "sha256": "f210d10f347b2baf0f983c703e6cdaf1707c67d7abea38f0b7aced4de51b9a37",
+      "bytes": 21470
+    },
+    {
+      "path": "examples/local/geospatial-mapping/tutorial.ipynb",
+      "sha256": "54c1fc7495b2234d08ca337e5373cd2b7e4804c6f8174b77115b51eb52890b6a",
+      "bytes": 10318
+    },
+    {
+      "path": "examples/local/sales-sql/tutorial.ipynb",
+      "sha256": "915d0bc73f1f6b5d47bf4c25fcaad93a1900716ca3bce3fdcd4e45222d995b22",
+      "bytes": 11982
+    },
+    {
+      "path": "examples/local/text-ingestion/tutorial.ipynb",
+      "sha256": "8511a6837c5b58ffa9cd173620645339b0bd6e811033bc58c141b79f3d7385ce",
+      "bytes": 10297
+    },
+    {
+      "path": "examples/local/streaming-corpus/tutorial.ipynb",
+      "sha256": "bfa0e152766a1f88fd6c38f5ba8d6cfb42f98090b81142ff583564bb6d1496a2",
+      "bytes": 12422
+    },
+    {
+      "path": "examples/local/document-parsing/tutorial.ipynb",
+      "sha256": "a9f0da705039e5d8a5ddf7adaf268408387faa2693237625bd5ba56f7146ed33",
+      "bytes": 10870
+    },
+    {
+      "path": "examples/local/contribution-aggregation/tutorial.ipynb",
+      "sha256": "25828d35e968e48acdf47368a29c206087518cd522fbd8c422df07db6f097960",
+      "bytes": 14126
+    },
+    {
+      "path": "examples/local/reproducible-environment/tutorial.ipynb",
+      "sha256": "082f7687b51539454e8197254d44f505ceb1cdc9c92175f00527735ea1667e38",
+      "bytes": 11681
+    },
+    {
+      "path": "examples/local/thumbnail-audit/tutorial.ipynb",
+      "sha256": "9ca34637f1deb844056388428f137c40b53162b7768f611eeba43f7e0596e2c2",
+      "bytes": 11744
+    },
+    {
+      "path": "examples/services/watsonx_orchestrate_evaluation.ipynb",
+      "sha256": "c314e50d8eee1445bc859583db3896aede9982435966ce6ad1c949204c5f866b",
+      "bytes": 22478
+    },
+    {
+      "path": "examples/services/langgraph_evaluation.ipynb",
+      "sha256": "2a4b206428ae3f13ff65ca3eca349ade2bf5b5fb5fb00674f706fad96b91686c",
+      "bytes": 12013
+    },
+    {
+      "path": "examples/services/secure_airgap_packaging.ipynb",
+      "sha256": "a26664b5b326bd87acec35b48f285b4f63e0c865a45898c16c54c44d2f28c8b5",
+      "bytes": 13395
+    },
+    {
+      "path": "examples/services/watsonx_runtime_context.ipynb",
+      "sha256": "bd15746beaf57ae0a07a9142b5c73c311a3cb9767f51126c5b4c767053140c9a",
+      "bytes": 16645
+    },
+    {
+      "path": "examples/services/tool_agent_evaluation.ipynb",
+      "sha256": "cc6680765c5d65736fe5da43021e1ea3facbb89b079ec5b98f126b29ffffd5e7",
+      "bytes": 17129
+    },
+    {
+      "path": "examples/services/evaluation_experiments.ipynb",
+      "sha256": "560d142e6d11a7214e3a82ba74dd45241c0087357b607958fbfc9c7eb159941e",
+      "bytes": 28373
+    },
+    {
+      "path": "examples/services/adversarial_agent_evaluation.ipynb",
+      "sha256": "63c752cbfe99c400a1ca23cf109548ebe4523b2cbda01d08cf042d7daf0c82d5",
+      "bytes": 15032
+    },
+    {
+      "path": "examples/services/html_to_training_qa.ipynb",
+      "sha256": "9fe7462c70212a0746a244ccb947446e49d0764f79b67d59f0d23b3a5ce02e6b",
+      "bytes": 15051
+    },
+    {
+      "path": "examples/services/workflow_agent_evaluation.ipynb",
+      "sha256": "775a69d0ada84a33f8bde76b5df2ad26b3521c384ad9e2441aa6793b4bc08171",
+      "bytes": 15845
+    },
+    {
+      "path": "examples/services/customization_job_workflow.ipynb",
+      "sha256": "638709d9b3578c9b12a44e9b65d6c958605f06949caf673873f3785d39b33ce0",
+      "bytes": 19001
+    },
+    {
+      "path": ".github/dco.yml",
+      "sha256": "51a5bbd190eadde23d129483c0832d1106d10ee7fa72839b186f148c0661d6e7",
+      "bytes": 127
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "65c51a889d4a6fa0d87444d3a55194384fa153d794b067da0df0ece25de2e48b",
+      "bytes": 2604
+    }
+  ],
+  "limitation": "Pattern detection is not proof of absence of sensitive information; review synthetic provenance and editorial content."
+}

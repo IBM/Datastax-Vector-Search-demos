@@ -1,0 +1,15 @@
+.venv/
+.build/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+artifacts/
+.DS_Store
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
