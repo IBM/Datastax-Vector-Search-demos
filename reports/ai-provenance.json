@@ -1,0 +1,238 @@
+{
+  "date": "2026-11-03",
+  "scope": "All maintained Python tools, public notebooks, dependency input files, workflow and project configuration; generated locks and unmodified third-party legal texts are not model-authorship claims.",
+  "known": "AI assistance was used in this development workflow.",
+  "owner_identified_potential_models": [
+    "Anthropic Claude Opus 4+",
+    "Anthropic Claude Sonnet 3.7+",
+    "OpenAI GPT-4+"
+  ],
+  "exact_historical_model_provenance": "unverified",
+  "files": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "source_sha256": "65c51a889d4a6fa0d87444d3a55194384fa153d794b067da0df0ece25de2e48b",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "_requirements/dev.in",
+      "source_sha256": "1ec93c4e579d026160d9363f4f0e3163782e833567e4fdccdad2eef55bbfe150",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "_requirements/optional-retrieval.in",
+      "source_sha256": "3cf0fd599902c6222102d5ad35f803ba576d03554ca509fac6f90da19877818c",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "_requirements/optional-services.in",
+      "source_sha256": "201cc049e2f5012586655687c611a8830e7291437fd78ba51aa8607405eb4481",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "_requirements/runtime.in",
+      "source_sha256": "3a3c940ca9bac05e78358f3a9297a4819269bfed04dead369580830ab9f3845a",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "_tools/audit_dependencies.py",
+      "source_sha256": "f25295fc63c605dd4635da851645a28ecf542fb8ba3d1af0196e12f9ea544cda",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "_tools/check_links.py",
+      "source_sha256": "c74c74b0fa3316eaace44efe65fcc68d6f961f5587a0ee106d02868b8d30b434",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "_tools/check_public.py",
+      "source_sha256": "6db1f9e02749b5e42d1450cee6857b461e3773c23d0dc11a216c9356dd18c77a",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "_tools/prepare_release.py",
+      "source_sha256": "ce3c6d3202616bef67aea98684d2f6f6ba150c5fa447a3ebd3965642ca6dab83",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "_tools/public_files.py",
+      "source_sha256": "0a006832a5aabff7f1f58c65f72c13a420e07e679f9328c9ad0289a781ba1987",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "_tools/release_evidence.py",
+      "source_sha256": "5c5d0c23ad070cf56b96fca60e14d2584832557da41eae18ec9c5b1cd88b385c",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "_tools/test_optional_contracts.py",
+      "source_sha256": "8de5dfd71532819c175e0cf35f59b9bf179fda8eb0877a35857b4b052d7ec495",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "_tools/test_quality_gates.py",
+      "source_sha256": "8b567b85372d35d03951f1d59aaf2beb30ce6460ca4f99d313303ebc2d9a1820",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "_tools/validate.py",
+      "source_sha256": "74bf82e4e1822631d7946734602467d7b475f6148cb824bd5173fb79f9a8bb74",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/local/contribution-aggregation/tutorial.ipynb",
+      "source_sha256": "25828d35e968e48acdf47368a29c206087518cd522fbd8c422df07db6f097960",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/local/document-parsing/tutorial.ipynb",
+      "source_sha256": "a9f0da705039e5d8a5ddf7adaf268408387faa2693237625bd5ba56f7146ed33",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/local/geospatial-mapping/tutorial.ipynb",
+      "source_sha256": "54c1fc7495b2234d08ca337e5373cd2b7e4804c6f8174b77115b51eb52890b6a",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/local/question-pair-review/tutorial.ipynb",
+      "source_sha256": "40e0facab8dd32edd76031bb28fa4f5b7872adf2a226f40cdf98cc85e61d1df5",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/local/reproducible-environment/tutorial.ipynb",
+      "source_sha256": "082f7687b51539454e8197254d44f505ceb1cdc9c92175f00527735ea1667e38",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/local/sales-sql/tutorial.ipynb",
+      "source_sha256": "915d0bc73f1f6b5d47bf4c25fcaad93a1900716ca3bce3fdcd4e45222d995b22",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/local/streaming-corpus/tutorial.ipynb",
+      "source_sha256": "bfa0e152766a1f88fd6c38f5ba8d6cfb42f98090b81142ff583564bb6d1496a2",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/local/text-ingestion/tutorial.ipynb",
+      "source_sha256": "8511a6837c5b58ffa9cd173620645339b0bd6e811033bc58c141b79f3d7385ce",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/local/thumbnail-audit/tutorial.ipynb",
+      "source_sha256": "9ca34637f1deb844056388428f137c40b53162b7768f611eeba43f7e0596e2c2",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/local/translation-workflow/tutorial.ipynb",
+      "source_sha256": "f210d10f347b2baf0f983c703e6cdaf1707c67d7abea38f0b7aced4de51b9a37",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/science/controlled-controlled-z/tutorial.ipynb",
+      "source_sha256": "34619f628e165b5f5fc49a7219a2de7ca68a8cbe530c2c268954fa3c74685ca3",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/science/controlled-z/tutorial.ipynb",
+      "source_sha256": "a58d47dea96c27ca2de546f6fcca2e185d8895ca18bdcb627c210b4d29a31ea3",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/science/ensemble-retrieval/tutorial.ipynb",
+      "source_sha256": "cda4c69fddd2bcf560659735f75035a0835da73431bcd7392bcc9a6ab460aff7",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/science/graph-phase-oracles/tutorial.ipynb",
+      "source_sha256": "7fe76df5e8dc0558041d5e42f2e0e8525072a636adcd93a683274476287337aa",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/science/knowledge-graph/tutorial.ipynb",
+      "source_sha256": "6f2ad423824f547706ccab8e6e9e956cf19a5887fcbfc7b5868662aa3af50338",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/science/noise-calibration/tutorial.ipynb",
+      "source_sha256": "eb19d7e152f1848539c4aceb18f4a636adc3bcac23a5e5d0bbad3ee2a8af7213",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/science/nvidia-reranking/tutorial.ipynb",
+      "source_sha256": "faa271ea7154fdde7fe0530138354e15ca0e87b94a549adcc043065b0cfdc9ba",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/science/remote-cnot/tutorial.ipynb",
+      "source_sha256": "eb3cea0940784fc1a72b686c0bab54c317ec642a78d2c1cf782cf9292fc704cf",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/science/teleportation/tutorial.ipynb",
+      "source_sha256": "e0082c1932036c040bfd14269e0131ae3ceb1979e1dd23f46e9b4e7d6d21d42f",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/services/adversarial_agent_evaluation.ipynb",
+      "source_sha256": "63c752cbfe99c400a1ca23cf109548ebe4523b2cbda01d08cf042d7daf0c82d5",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/services/customization_job_workflow.ipynb",
+      "source_sha256": "638709d9b3578c9b12a44e9b65d6c958605f06949caf673873f3785d39b33ce0",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/services/evaluation_experiments.ipynb",
+      "source_sha256": "560d142e6d11a7214e3a82ba74dd45241c0087357b607958fbfc9c7eb159941e",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/services/html_to_training_qa.ipynb",
+      "source_sha256": "9fe7462c70212a0746a244ccb947446e49d0764f79b67d59f0d23b3a5ce02e6b",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/services/langgraph_evaluation.ipynb",
+      "source_sha256": "2a4b206428ae3f13ff65ca3eca349ade2bf5b5fb5fb00674f706fad96b91686c",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/services/secure_airgap_packaging.ipynb",
+      "source_sha256": "a26664b5b326bd87acec35b48f285b4f63e0c865a45898c16c54c44d2f28c8b5",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/services/tool_agent_evaluation.ipynb",
+      "source_sha256": "cc6680765c5d65736fe5da43021e1ea3facbb89b079ec5b98f126b29ffffd5e7",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/services/watsonx_orchestrate_evaluation.ipynb",
+      "source_sha256": "c314e50d8eee1445bc859583db3896aede9982435966ce6ad1c949204c5f866b",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/services/watsonx_runtime_context.ipynb",
+      "source_sha256": "bd15746beaf57ae0a07a9142b5c73c311a3cb9767f51126c5b4c767053140c9a",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "examples/services/workflow_agent_evaluation.ipynb",
+      "source_sha256": "775a69d0ada84a33f8bde76b5df2ad26b3521c384ad9e2441aa6793b4bc08171",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": "pyproject.toml",
+      "source_sha256": "3ec5be7bfbd7618710df549c8bfa4ffc626218f25cbc84ffc7eb0a109e76e7a6",
+      "disclosure": "Potential AI assistance involving owner-listed model families; exact file-level historical model provenance unverified."
+    },
+    {
+      "path": ".python-version",
+      "source_sha256": "a05e0074505ce29f25abf3aebe4f7218d28e98411822f199e3272740be4e363c",
+      "disclosure": "AI-assisted runtime configuration; exact historical model provenance unverified."
+    }
+  ]
+}

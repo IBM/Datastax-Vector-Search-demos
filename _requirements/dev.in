@@ -1,0 +1,13 @@
+# Copyright IBM Corp. 2026
+# SPDX-License-Identifier: Apache-2.0
+# Modified for open-source preparation on 2026-10-23.
+# AI assistance may include Anthropic Claude Opus 4+, Sonnet 3.7+, and
+# OpenAI GPT-4+ contributions; exact file provenance is unverified.
+# See AI_DISCLOSURE.md and NOTICE.md at the collection root.
+
+-r runtime.in
+pip-audit
+ruff
+nbconvert
+jupyterlab
+pip

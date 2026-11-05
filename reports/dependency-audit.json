@@ -1,0 +1,216 @@
+{
+  "audited_at": "2026-11-03T18:49:47.447474+00:00",
+  "method": "pip-audit strict PyPI advisory lookup, all locked versions including alternative platforms, no ignored advisories",
+  "results": {
+    "requirements.txt": {
+      "registry_versions": 97,
+      "advisories": [],
+      "unknown": []
+    },
+    "requirements-dev.txt": {
+      "registry_versions": 155,
+      "advisories": [],
+      "unknown": []
+    },
+    "_requirements/optional-services.lock.txt": {
+      "registry_versions": 41,
+      "advisories": [],
+      "unknown": []
+    },
+    "_requirements/optional-retrieval.lock.txt": {
+      "registry_versions": 69,
+      "advisories": [],
+      "unknown": []
+    },
+    "installed-environment": {
+      "registry_versions": 152,
+      "advisories": [],
+      "unknown": []
+    },
+    "optional-installed-environment-1": {
+      "registry_versions": 142,
+      "advisories": [],
+      "unknown": []
+    }
+  },
+  "lock_sha256": {
+    "requirements.txt": "10947a0463aa02ce636e4b13ab59fbd99efa06834cd4e7508127ff6b898e379a",
+    "requirements-dev.txt": "c4363e112540ccc1b1d11379be05d54d01306c0ab1dd2ede5af2ab1a9c0a0bfc",
+    "_requirements/optional-services.lock.txt": "37c086360da8cbb84a9d38964bb143d3bcd58cb1b5926a5f8c3b3a3886b59c38",
+    "_requirements/optional-retrieval.lock.txt": "ee2353f08ecfe3844f516e06283eaafcfcb909b315cb9dd201bae39473a7dba5"
+  },
+  "input_sha256": {
+    "_requirements/runtime.in": "3a3c940ca9bac05e78358f3a9297a4819269bfed04dead369580830ab9f3845a",
+    "_requirements/dev.in": "1ec93c4e579d026160d9363f4f0e3163782e833567e4fdccdad2eef55bbfe150",
+    "_requirements/optional-services.in": "201cc049e2f5012586655687c611a8830e7291437fd78ba51aa8607405eb4481",
+    "_requirements/optional-retrieval.in": "3cf0fd599902c6222102d5ad35f803ba576d03554ca509fac6f90da19877818c"
+  },
+  "verifier_sha256": {
+    "_tools/audit_dependencies.py": "f25295fc63c605dd4635da851645a28ecf542fb8ba3d1af0196e12f9ea544cda",
+    "_tools/release_evidence.py": "5c5d0c23ad070cf56b96fca60e14d2584832557da41eae18ec9c5b1cd88b385c"
+  },
+  "top_level_freshness": [
+    {
+      "package": "anthropic",
+      "locked": "2.4.0",
+      "latest_pypi": "2.4.0",
+      "matches_latest": true
+    },
+    {
+      "package": "arize-phoenix-client",
+      "locked": "3.6.0",
+      "latest_pypi": "3.6.0",
+      "matches_latest": true
+    },
+    {
+      "package": "beautifulsoup4",
+      "locked": "4.15.0",
+      "latest_pypi": "4.15.0",
+      "matches_latest": true
+    },
+    {
+      "package": "h11",
+      "locked": "0.16.0",
+      "latest_pypi": "0.16.0",
+      "matches_latest": true
+    },
+    {
+      "package": "httpx",
+      "locked": "0.28.1",
+      "latest_pypi": "0.28.1",
+      "matches_latest": true
+    },
+    {
+      "package": "ipykernel",
+      "locked": "7.4.0",
+      "latest_pypi": "7.4.0",
+      "matches_latest": true
+    },
+    {
+      "package": "jupyterlab",
+      "locked": "4.6.5",
+      "latest_pypi": "4.6.5",
+      "matches_latest": true
+    },
+    {
+      "package": "langgraph",
+      "locked": "1.2.19",
+      "latest_pypi": "1.2.19",
+      "matches_latest": true
+    },
+    {
+      "package": "matplotlib",
+      "locked": "3.11.2",
+      "latest_pypi": "3.11.2",
+      "matches_latest": true
+    },
+    {
+      "package": "nbclient",
+      "locked": "0.11.0",
+      "latest_pypi": "0.11.0",
+      "matches_latest": true
+    },
+    {
+      "package": "nbconvert",
+      "locked": "7.17.2",
+      "latest_pypi": "7.17.2",
+      "matches_latest": true
+    },
+    {
+      "package": "nbformat",
+      "locked": "5.11.1",
+      "latest_pypi": "5.11.1",
+      "matches_latest": true
+    },
+    {
+      "package": "networkx",
+      "locked": "3.7",
+      "latest_pypi": "3.7",
+      "matches_latest": true
+    },
+    {
+      "package": "numpy",
+      "locked": "2.5.4",
+      "latest_pypi": "2.5.4",
+      "matches_latest": true
+    },
+    {
+      "package": "openai",
+      "locked": "3.43.0",
+      "latest_pypi": "3.43.0",
+      "matches_latest": true
+    },
+    {
+      "package": "pandas",
+      "locked": "3.1.0",
+      "latest_pypi": "3.1.0",
+      "matches_latest": true
+    },
+    {
+      "package": "pillow",
+      "locked": "13.0.0",
+      "latest_pypi": "13.0.0",
+      "matches_latest": true
+    },
+    {
+      "package": "pip",
+      "locked": "26.3",
+      "latest_pypi": "26.3",
+      "matches_latest": true
+    },
+    {
+      "package": "pip-audit",
+      "locked": "2.10.1",
+      "latest_pypi": "2.10.1",
+      "matches_latest": true
+    },
+    {
+      "package": "pydantic",
+      "locked": "2.14.2",
+      "latest_pypi": "2.14.2",
+      "matches_latest": true
+    },
+    {
+      "package": "pylatexenc",
+      "locked": "2.11",
+      "latest_pypi": "2.11",
+      "matches_latest": true
+    },
+    {
+      "package": "qiskit",
+      "locked": "2.6.1",
+      "latest_pypi": "2.6.1",
+      "matches_latest": true
+    },
+    {
+      "package": "qiskit-aer",
+      "locked": "0.18.2",
+      "latest_pypi": "0.18.2",
+      "matches_latest": true
+    },
+    {
+      "package": "ruff",
+      "locked": "0.17.3",
+      "latest_pypi": "0.17.3",
+      "matches_latest": true
+    },
+    {
+      "package": "scipy",
+      "locked": "1.18.1",
+      "latest_pypi": "1.18.1",
+      "matches_latest": true
+    },
+    {
+      "package": "sentence-transformers",
+      "locked": "6.2.0",
+      "latest_pypi": "6.2.0",
+      "matches_latest": true
+    }
+  ],
+  "runtime": {
+    "python": "3.12.16",
+    "openssl": "OpenSSL 3.5.9 29 Sep 2026",
+    "sqlite": "3.53.4"
+  },
+  "limits": "Advisory databases and package versions do not prove absence of unknown vulnerabilities or cover every embedded native library. Live hosts and services require separate scans."
+}

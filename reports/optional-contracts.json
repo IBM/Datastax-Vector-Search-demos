@@ -1,0 +1,34 @@
+{
+  "verified_at": "2026-11-03T18:50:06.102555+00:00",
+  "command": "python _tools/test_optional_contracts.py",
+  "status": "passed",
+  "input_sha256": {
+    "requirements.txt": "10947a0463aa02ce636e4b13ab59fbd99efa06834cd4e7508127ff6b898e379a",
+    "_requirements/optional-services.lock.txt": "37c086360da8cbb84a9d38964bb143d3bcd58cb1b5926a5f8c3b3a3886b59c38",
+    "_requirements/optional-retrieval.lock.txt": "ee2353f08ecfe3844f516e06283eaafcfcb909b315cb9dd201bae39473a7dba5"
+  },
+  "verifier_sha256": {
+    "_tools/release_evidence.py": "5c5d0c23ad070cf56b96fca60e14d2584832557da41eae18ec9c5b1cd88b385c",
+    "_tools/audit_dependencies.py": "f25295fc63c605dd4635da851645a28ecf542fb8ba3d1af0196e12f9ea544cda"
+  },
+  "test_methods": 8,
+  "notebooks": 7,
+  "coverage": "Actual notebook branches with synthetic HTTP responses: SDK serialization, reordered/malformed embedding indices, SDK HTTP/parsing diagnostic redaction, complete Phoenix SDK persistence/read-back integrity without trace export and with failure redaction, 12 service status scenarios, 12 malformed endpoint cases, and six actual h11/Unicode header failures with credential-safe diagnostics. Socket connect/connect_ex/DNS denied. Live providers remain unverified.",
+  "packages": {
+    "anthropic": "2.4.0",
+    "openai": "3.43.0",
+    "httpx": "0.28.1",
+    "httpx2": "2.16.0",
+    "arize-phoenix-client": "3.6.0"
+  },
+  "source_sha256": {
+    "examples/services/tool_agent_evaluation.ipynb": "cc6680765c5d65736fe5da43021e1ea3facbb89b079ec5b98f126b29ffffd5e7",
+    "examples/science/ensemble-retrieval/tutorial.ipynb": "cda4c69fddd2bcf560659735f75035a0835da73431bcd7392bcc9a6ab460aff7",
+    "examples/science/knowledge-graph/tutorial.ipynb": "6f2ad423824f547706ccab8e6e9e956cf19a5887fcbfc7b5868662aa3af50338",
+    "examples/services/watsonx_orchestrate_evaluation.ipynb": "c314e50d8eee1445bc859583db3896aede9982435966ce6ad1c949204c5f866b",
+    "examples/services/watsonx_runtime_context.ipynb": "bd15746beaf57ae0a07a9142b5c73c311a3cb9767f51126c5b4c767053140c9a",
+    "examples/services/workflow_agent_evaluation.ipynb": "775a69d0ada84a33f8bde76b5df2ad26b3521c384ad9e2441aa6793b4bc08171",
+    "examples/services/evaluation_experiments.ipynb": "560d142e6d11a7214e3a82ba74dd45241c0087357b607958fbfc9c7eb159941e"
+  },
+  "test_script_sha256": "8de5dfd71532819c175e0cf35f59b9bf179fda8eb0877a35857b4b052d7ec495"
+}
