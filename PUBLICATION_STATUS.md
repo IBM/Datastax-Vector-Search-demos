@@ -1,12 +1,12 @@
 # Initial publication review status
 
-This is a draft import for IBM/Datastax-Vector-Search-demos. The notebook content is prepared for public review; merge and release remain subject to the items below. Repository creation, DCO sign-off or passing tests do not replace IBM release approval.
+This is an initial import for IBM/Datastax-Vector-Search-demos. The notebook content is prepared for public review; merge and release remain subject to the items below. Repository creation, DCO sign-off or passing tests do not replace IBM release approval.
 
 ## Maintainer and approval items
 
 - Obtain the two maintainer LGTMs required by CONTRIBUTING.md. Devin Bost and Kiyu are listed at the owner's direction; their reviews have not yet been recorded.
 - Security reporting follows IBM's shared PSIRT/private reporting policy. Conduct reports use Devin Bost's IBM address with the owner's authorization; verify these routes remain current at release.
-- Confirm IBM open-source release approval and the disposition of the embedded synthetic fixtures under the applicable DMG/data review. The owner reports one of these approvals is pending but has not identified which one or supplied an approval reference; do not infer both are complete.
+- The project owner confirmed on 2026-11-04 that all required release/data approvals have been obtained. Approval documents and reference identifiers were not supplied in this chat and are not reproduced here; retain them in the approved internal system. This owner confirmation does not stand in for GitHub maintainer reviews or scan evidence.
 - Verify public-repository DCO/Mend checks and required-check settings; the inherited configuration is retained rather than replaced with Enterprise-only settings.
 - Verify Mend package-level inventory against all four locks, including optional and development packages and platform alternatives. A check summary alone does not establish coverage; retain sanitized evidence and fix critical/high findings before release.
 
