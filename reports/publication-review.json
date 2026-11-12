@@ -175,5 +175,17 @@
     "date": "2026-11-04",
     "basis": "Project owner states all required approvals have been obtained.",
     "approval_references": "Not supplied; retain documents in approved internal system."
+  },
+  "dependency_refresh": {
+    "date": "2026-11-12",
+    "notebooks_passed": 29,
+    "code_cells_executed": 125,
+    "quality_gate_tests_passed": 20,
+    "optional_sdk_contract_tests_passed": 8,
+    "audited_cases": 6,
+    "direct_dependencies_current": 26,
+    "advisories": 0,
+    "unknown_packages": 0,
+    "scope": "Dependency refresh only; notebook sources unchanged. Fresh source-bound evidence is in execution.json, optional-contracts.json and dependency-audit.json."
   }
 }

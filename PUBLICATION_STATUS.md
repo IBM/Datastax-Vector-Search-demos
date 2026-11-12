@@ -19,3 +19,7 @@ Python numerical simulations, parsers and fixtures run locally. Optional live pr
 ## Release artifacts
 
 Do not include private operational originals, old development manifests, internal scan support tokens, private reports, model weights, local environments, caches or saved notebook outputs. A release archive must follow the reviewed distribution boundary and include only current evidence. Keep any generated package/SBOM inventory and license review associated with the exact release commit.
+
+## Dependency refresh on 2026-11-12
+
+All four hashed locks were refreshed against current stable package releases. All 29 notebooks (125 code cells), 20 quality-gate tests and eight optional SDK contract tests passed locally. Six lock/environment advisory audits reported zero advisories and zero unknown packages; all 26 direct dependencies matched current PyPI releases at audit time. Notebook sources were unchanged. GitHub CI must validate the updated commit independently; maintainer reviews and public Mend scan/inventory verification remain open.

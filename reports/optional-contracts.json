@@ -1,11 +1,11 @@
 {
-  "verified_at": "2026-11-03T18:50:06.102555+00:00",
+  "verified_at": "2026-11-12T19:59:32.649907+00:00",
   "command": "python _tools/test_optional_contracts.py",
   "status": "passed",
   "input_sha256": {
-    "requirements.txt": "10947a0463aa02ce636e4b13ab59fbd99efa06834cd4e7508127ff6b898e379a",
-    "_requirements/optional-services.lock.txt": "37c086360da8cbb84a9d38964bb143d3bcd58cb1b5926a5f8c3b3a3886b59c38",
-    "_requirements/optional-retrieval.lock.txt": "ee2353f08ecfe3844f516e06283eaafcfcb909b315cb9dd201bae39473a7dba5"
+    "requirements.txt": "0e47a5c4a5c9e58fa026ab04dae09e5aee9ef585c2a8de28885ddce773db9b1d",
+    "_requirements/optional-services.lock.txt": "edbd365ca162d6ee5df9aeadb41084e95e803164f16acf0536669e0a741de764",
+    "_requirements/optional-retrieval.lock.txt": "56edb410e6bd6ccf76e6ca9435c865b8be71c8a10bf1bfdef631a72b2b8a7d4f"
   },
   "verifier_sha256": {
     "_tools/release_evidence.py": "5c5d0c23ad070cf56b96fca60e14d2584832557da41eae18ec9c5b1cd88b385c",
@@ -15,11 +15,11 @@
   "notebooks": 7,
   "coverage": "Actual notebook branches with synthetic HTTP responses: SDK serialization, reordered/malformed embedding indices, SDK HTTP/parsing diagnostic redaction, complete Phoenix SDK persistence/read-back integrity without trace export and with failure redaction, 12 service status scenarios, 12 malformed endpoint cases, and six actual h11/Unicode header failures with credential-safe diagnostics. Socket connect/connect_ex/DNS denied. Live providers remain unverified.",
   "packages": {
-    "anthropic": "2.4.0",
-    "openai": "3.43.0",
+    "anthropic": "2.8.0",
+    "openai": "3.50.0",
     "httpx": "0.28.1",
     "httpx2": "2.16.0",
-    "arize-phoenix-client": "3.6.0"
+    "arize-phoenix-client": "3.7.0"
   },
   "source_sha256": {
     "examples/services/tool_agent_evaluation.ipynb": "cc6680765c5d65736fe5da43021e1ea3facbb89b079ec5b98f126b29ffffd5e7",

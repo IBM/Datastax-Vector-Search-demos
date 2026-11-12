@@ -1,5 +1,5 @@
 {
-  "audited_at": "2026-11-03T18:49:47.447474+00:00",
+  "audited_at": "2026-11-12T19:59:21.574114+00:00",
   "method": "pip-audit strict PyPI advisory lookup, all locked versions including alternative platforms, no ignored advisories",
   "results": {
     "requirements.txt": {
@@ -34,10 +34,10 @@
     }
   },
   "lock_sha256": {
-    "requirements.txt": "10947a0463aa02ce636e4b13ab59fbd99efa06834cd4e7508127ff6b898e379a",
-    "requirements-dev.txt": "c4363e112540ccc1b1d11379be05d54d01306c0ab1dd2ede5af2ab1a9c0a0bfc",
-    "_requirements/optional-services.lock.txt": "37c086360da8cbb84a9d38964bb143d3bcd58cb1b5926a5f8c3b3a3886b59c38",
-    "_requirements/optional-retrieval.lock.txt": "ee2353f08ecfe3844f516e06283eaafcfcb909b315cb9dd201bae39473a7dba5"
+    "requirements.txt": "0e47a5c4a5c9e58fa026ab04dae09e5aee9ef585c2a8de28885ddce773db9b1d",
+    "requirements-dev.txt": "db2e2db0c102ef01fe8c33eb0a84cd6dcd7bb780ec559358d5b1a7cf635eb792",
+    "_requirements/optional-services.lock.txt": "edbd365ca162d6ee5df9aeadb41084e95e803164f16acf0536669e0a741de764",
+    "_requirements/optional-retrieval.lock.txt": "56edb410e6bd6ccf76e6ca9435c865b8be71c8a10bf1bfdef631a72b2b8a7d4f"
   },
   "input_sha256": {
     "_requirements/runtime.in": "3a3c940ca9bac05e78358f3a9297a4819269bfed04dead369580830ab9f3845a",
@@ -52,14 +52,14 @@
   "top_level_freshness": [
     {
       "package": "anthropic",
-      "locked": "2.4.0",
-      "latest_pypi": "2.4.0",
+      "locked": "2.8.0",
+      "latest_pypi": "2.8.0",
       "matches_latest": true
     },
     {
       "package": "arize-phoenix-client",
-      "locked": "3.6.0",
-      "latest_pypi": "3.6.0",
+      "locked": "3.7.0",
+      "latest_pypi": "3.7.0",
       "matches_latest": true
     },
     {
@@ -88,14 +88,14 @@
     },
     {
       "package": "jupyterlab",
-      "locked": "4.6.5",
-      "latest_pypi": "4.6.5",
+      "locked": "4.6.6",
+      "latest_pypi": "4.6.6",
       "matches_latest": true
     },
     {
       "package": "langgraph",
-      "locked": "1.2.19",
-      "latest_pypi": "1.2.19",
+      "locked": "1.2.21",
+      "latest_pypi": "1.2.21",
       "matches_latest": true
     },
     {
@@ -136,14 +136,14 @@
     },
     {
       "package": "openai",
-      "locked": "3.43.0",
-      "latest_pypi": "3.43.0",
+      "locked": "3.50.0",
+      "latest_pypi": "3.50.0",
       "matches_latest": true
     },
     {
       "package": "pandas",
-      "locked": "3.1.0",
-      "latest_pypi": "3.1.0",
+      "locked": "3.1.1",
+      "latest_pypi": "3.1.1",
       "matches_latest": true
     },
     {
@@ -166,8 +166,8 @@
     },
     {
       "package": "pydantic",
-      "locked": "2.14.2",
-      "latest_pypi": "2.14.2",
+      "locked": "2.14.3",
+      "latest_pypi": "2.14.3",
       "matches_latest": true
     },
     {
@@ -178,8 +178,8 @@
     },
     {
       "package": "qiskit",
-      "locked": "2.6.1",
-      "latest_pypi": "2.6.1",
+      "locked": "2.6.2",
+      "latest_pypi": "2.6.2",
       "matches_latest": true
     },
     {
@@ -190,8 +190,8 @@
     },
     {
       "package": "ruff",
-      "locked": "0.17.3",
-      "latest_pypi": "0.17.3",
+      "locked": "0.17.5",
+      "latest_pypi": "0.17.5",
       "matches_latest": true
     },
     {
@@ -202,8 +202,8 @@
     },
     {
       "package": "sentence-transformers",
-      "locked": "6.2.0",
-      "latest_pypi": "6.2.0",
+      "locked": "6.3.0",
+      "latest_pypi": "6.3.0",
       "matches_latest": true
     }
   ],

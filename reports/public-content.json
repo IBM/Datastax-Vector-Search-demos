@@ -190,8 +190,8 @@
     },
     {
       "path": "requirements.txt",
-      "sha256": "10947a0463aa02ce636e4b13ab59fbd99efa06834cd4e7508127ff6b898e379a",
-      "bytes": 198250
+      "sha256": "0e47a5c4a5c9e58fa026ab04dae09e5aee9ef585c2a8de28885ddce773db9b1d",
+      "bytes": 198679
     },
     {
       "path": "AI_DISCLOSURE.md",
@@ -205,8 +205,8 @@
     },
     {
       "path": "PUBLICATION_STATUS.md",
-      "sha256": "ee5a40c62c02ce2bac62e94681aaf3e36dcf2eda646ddcc7d230532648347df5",
-      "bytes": 3223
+      "sha256": "1233cc9c902d131c7ea6c5105608f8deb1f6d50270a86581f7e070586dbaf00c",
+      "bytes": 3778
     },
     {
       "path": "MAINTAINERS.md",
@@ -240,8 +240,8 @@
     },
     {
       "path": "requirements-dev.txt",
-      "sha256": "c4363e112540ccc1b1d11379be05d54d01306c0ab1dd2ede5af2ab1a9c0a0bfc",
-      "bytes": 246816
+      "sha256": "db2e2db0c102ef01fe8c33eb0a84cd6dcd7bb780ec559358d5b1a7cf635eb792",
+      "bytes": 247246
     },
     {
       "path": ".gitignore",
@@ -290,13 +290,13 @@
     },
     {
       "path": "_requirements/optional-services.lock.txt",
-      "sha256": "37c086360da8cbb84a9d38964bb143d3bcd58cb1b5926a5f8c3b3a3886b59c38",
-      "bytes": 61495
+      "sha256": "edbd365ca162d6ee5df9aeadb41084e95e803164f16acf0536669e0a741de764",
+      "bytes": 60220
     },
     {
       "path": "_requirements/optional-retrieval.lock.txt",
-      "sha256": "ee2353f08ecfe3844f516e06283eaafcfcb909b315cb9dd201bae39473a7dba5",
-      "bytes": 93665
+      "sha256": "56edb410e6bd6ccf76e6ca9435c865b8be71c8a10bf1bfdef631a72b2b8a7d4f",
+      "bytes": 90790
     },
     {
       "path": "_requirements/optional-services.in",
