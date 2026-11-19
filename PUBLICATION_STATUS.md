@@ -23,3 +23,9 @@ Do not include private operational originals, old development manifests, interna
 ## Dependency refresh on 2026-11-12
 
 All four hashed locks were refreshed against current stable package releases. All 29 notebooks (125 code cells), 20 quality-gate tests and eight optional SDK contract tests passed locally. Six lock/environment advisory audits reported zero advisories and zero unknown packages; all 26 direct dependencies matched current PyPI releases at audit time. Notebook sources were unchanged. GitHub CI must validate the updated commit independently; maintainer reviews and public Mend scan/inventory verification remain open.
+
+## Follow-up on 2026-11-19
+
+Repository instructions now prohibit assistant branding in PRs, and the existing PR description was corrected. The four locks were refreshed again; all 29 notebooks, 20 quality-gate tests, eight SDK contract tests and six advisory audit cases passed locally. All 26 direct dependencies matched current PyPI releases at audit time. Source notebooks remain unchanged.
+
+[Mend handoff](MEND_REVIEW.md) and [expected package inventory](reports/dependency-inventory.json) provide the remaining scan steps and exact lock coverage for comparison. No maintainer reviews or public Mend check were visible at inspection. Branch protection is not configured for main and no repository rulesets were returned; do not treat absent enforcement as permission to skip documented review. Integration administration, formal reviews, scan inventory evidence and first-release support decisions remain manual items.

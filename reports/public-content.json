@@ -190,8 +190,8 @@
     },
     {
       "path": "requirements.txt",
-      "sha256": "0e47a5c4a5c9e58fa026ab04dae09e5aee9ef585c2a8de28885ddce773db9b1d",
-      "bytes": 198679
+      "sha256": "3e8ebcf3ce6451f42769630e3f17e522404325069216b2c3d1352cab35fd1ced",
+      "bytes": 198680
     },
     {
       "path": "AI_DISCLOSURE.md",
@@ -205,8 +205,8 @@
     },
     {
       "path": "PUBLICATION_STATUS.md",
-      "sha256": "1233cc9c902d131c7ea6c5105608f8deb1f6d50270a86581f7e070586dbaf00c",
-      "bytes": 3778
+      "sha256": "e9128e13a74c885c4b3a64f59783eba384c089326039fbd16fabf8df8d57a754",
+      "bytes": 4702
     },
     {
       "path": "MAINTAINERS.md",
@@ -222,6 +222,11 @@
       "path": "DATA.md",
       "sha256": "6adcde0f4f794b31d8ccbd38a2968be253efeb0de6fe8fc1dda6c31af0ea02f2",
       "bytes": 4073
+    },
+    {
+      "path": "MEND_REVIEW.md",
+      "sha256": "cc1943500337e54596ca64ac3de2f057e0fdeb36431b8abafd28c29c111962a9",
+      "bytes": 3209
     },
     {
       "path": ".whitesource",
@@ -240,8 +245,8 @@
     },
     {
       "path": "requirements-dev.txt",
-      "sha256": "db2e2db0c102ef01fe8c33eb0a84cd6dcd7bb780ec559358d5b1a7cf635eb792",
-      "bytes": 247246
+      "sha256": "1cc37706b3e431493ebf0a8b6ad65a233d305b82642388b5ca4f19faa51a713e",
+      "bytes": 247247
     },
     {
       "path": ".gitignore",
@@ -250,8 +255,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "sha256": "49bb8a107c1ba6f56c4dcb3cbf3e047a6f04dcc68de4edf3bf8a1b9c6a148f63",
-      "bytes": 5955
+      "sha256": "70bf14ddfc586f9970586000d469f57a162cf16080587b9117696fd1852fd4b0",
+      "bytes": 6028
     },
     {
       "path": ".python-version",
@@ -262,6 +267,11 @@
       "path": "publication.json",
       "sha256": "6ae0002c84f0484d50ebdc449d3edc00fe9dcaa0b26af2fdcd21f11e93365d38",
       "bytes": 21874
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "50f6678b3234ee5e496ee0d57834919a438de0575d3d66ef46aa71162b178771",
+      "bytes": 899
     },
     {
       "path": "NOTICE.md",
@@ -290,13 +300,13 @@
     },
     {
       "path": "_requirements/optional-services.lock.txt",
-      "sha256": "edbd365ca162d6ee5df9aeadb41084e95e803164f16acf0536669e0a741de764",
-      "bytes": 60220
+      "sha256": "3c602b130dab5dc8b79c460309ec4e67059514ed2a668c70c825371140cc3b76",
+      "bytes": 60221
     },
     {
       "path": "_requirements/optional-retrieval.lock.txt",
-      "sha256": "56edb410e6bd6ccf76e6ca9435c865b8be71c8a10bf1bfdef631a72b2b8a7d4f",
-      "bytes": 90790
+      "sha256": "65b52c0b69b60fb74f0244ba11359fab613bd60ef73fba6be16f41d55ff0c455",
+      "bytes": 90791
     },
     {
       "path": "_requirements/optional-services.in",

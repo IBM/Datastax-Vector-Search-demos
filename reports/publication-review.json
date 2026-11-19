@@ -187,5 +187,19 @@
     "advisories": 0,
     "unknown_packages": 0,
     "scope": "Dependency refresh only; notebook sources unchanged. Fresh source-bound evidence is in execution.json, optional-contracts.json and dependency-audit.json."
+  },
+  "followup_2026_11_19": {
+    "notebooks_passed": 29,
+    "code_cells_executed": 125,
+    "quality_gate_tests_passed": 20,
+    "optional_sdk_contract_tests_passed": 8,
+    "advisory_audit_cases": 6,
+    "advisories": 0,
+    "unknown_packages": 0,
+    "direct_dependencies_current": 26,
+    "expected_inventory": "reports/dependency-inventory.json",
+    "mend_verification": "Not established; no visible Mend check, app enumeration inaccessible with available credential, inherited configuration repository inaccessible. See MEND_REVIEW.md.",
+    "maintainer_reviews": "No recorded maintainer reviews at inspection.",
+    "pr_branding": "Assistant branding removed; repository instructions prohibit its addition."
   }
 }
